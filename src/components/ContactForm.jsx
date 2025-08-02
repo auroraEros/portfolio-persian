@@ -20,9 +20,9 @@ function ContactForm() {
       if (response.ok) {
         toast.success(
           <div className="text-center">
-            <h3 className="font-bold text-lg mb-1">Message sent!</h3>
+            <h3 className="font-bold text-lg mb-1">پیام ارسال شد!</h3>
             <p className="text-sm">
-              Thank you for your message. I'll get back to you soon.{" "}
+              با سپاس از پیام‌‌تون، به زودی در ارتباط خواهم بود.{" "}
             </p>
           </div>,
           {
@@ -66,7 +66,7 @@ function ContactForm() {
 
       <div>
         <label htmlFor="email" className="block text-sm font-medium mb-2">
-         ایمیل
+          ایمیل
         </label>
         <input
           id="email"
